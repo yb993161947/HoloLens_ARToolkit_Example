@@ -38,11 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 11
   m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
@@ -54,7 +54,7 @@ LightmapSettings:
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
-    serializedVersion: 8
+    serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
     m_TextureWidth: 1024
@@ -77,17 +77,20 @@ LightmapSettings:
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
     m_PVRBounces: 2
-    m_PVRFiltering: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
     m_PVRFilteringMode: 1
     m_PVRCulling: 1
     m_PVRFilteringGaussRadiusDirect: 1
     m_PVRFilteringGaussRadiusIndirect: 5
     m_PVRFilteringGaussRadiusAO: 2
-    m_PVRFilteringAtrousColorSigma: 1
-    m_PVRFilteringAtrousNormalSigma: 1
-    m_PVRFilteringAtrousPositionSigma: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_ShadowMaskMode: 2
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -107,6 +110,8 @@ NavMeshSettings:
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
+    debug:
+      m_Flags: 0
   m_NavMeshData: {fileID: 0}
 --- !u!1 &1022939216
 GameObject:
@@ -195,7 +200,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1129676493}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1913216037}
@@ -411,7 +416,7 @@ MonoBehaviour:
   videoPreview: 1
   previewPlane: {fileID: 1437024735}
   videoFPS: {fileID: 1366748863}
-  videoParameter: 4
+  videoParameter: 0
 --- !u!4 &1888954597
 Transform:
   m_ObjectHideFlags: 0
@@ -442,7 +447,7 @@ MonoBehaviour:
   frameWidth: 0
   frameHeight: 0
   useCameraParamFile: 1
-  cameraParam: hololens1344x756.dat
+  cameraParam: hololens896x504.dat
   threshold: 100
   borderSize: 0.25
   thresholdMode: 0
@@ -450,9 +455,10 @@ MonoBehaviour:
   patternDetectionMode: 2
   matrixCodeType: 3
   imageProcMode: 0
-  showOptions: 0
+  showOptions: 1
   trackFPS: {fileID: 1366748861}
   renderFPS: {fileID: 1366748862}
+  debugText: {fileID: 0}
 --- !u!114 &1888954599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,8 +473,8 @@ MonoBehaviour:
   eventClickerClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1888954596}
-        m_MethodName: TogglePreview
+      - m_Target: {fileID: 1888954610}
+        m_MethodName: OnClikCalibTest
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -492,7 +498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 3
-  showOptions: 0
+  showOptions: 1
   oFiltered: 0
   oSampleRate: 30
   oCutOffFreq: 15
@@ -506,7 +512,7 @@ MonoBehaviour:
   oMinConfSubMatrix: 0.5
   oMinConfSubPattern: 0.5
   target: {fileID: 1129676493}
-  anchoredToWorld: 1
+  anchoredToWorld: 0
   applyRotation: 1
   applyTranslation: 1
   magicMatrix1:
@@ -585,15 +591,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d48c217765fe4241bc9579955acde2f, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.06
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d48c217765fe4241bc9579955acde2f, type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.06
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4d48c217765fe4241bc9579955acde2f, type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.06
+      value: 0.04
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d48c217765fe4241bc9579955acde2f, type: 2}

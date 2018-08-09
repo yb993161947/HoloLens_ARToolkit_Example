@@ -1,0 +1,2 @@
+F:\HoloLensARToolKit\HoloLensARSample\bin\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\HoloLensARToolKit.csproj;x86

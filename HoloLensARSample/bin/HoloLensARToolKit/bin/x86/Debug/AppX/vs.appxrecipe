@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6c487332-f18c-4579-9104-d923bf6313c8</PackageIdentityName>
     <PackageIdentityPublisher>CN=LongQian</PackageIdentityPublisher>
-    <IntermediateOutputPath>F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>CC36E82EC040684DE3C649BB3A67EE7A7DB344A303322946509F71022D5E5036</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>HoloLensARToolKit_1.0.0.0_x86__njnqpp06dysmp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>HoloLensARToolKit_njnqpp06dysmp!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>False</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-09T16:00:22.284</Modified>
+      <Modified>2018-08-14T14:38:32.186</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\bin\x86\Debug\HoloLensARToolKit.exe">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\bin\x86\Debug\HoloLensARToolKit.exe">
       <PackagePath>entrypoint\HoloLensARToolKit.exe</PackagePath>
-      <Modified>2018-08-09T16:00:12.419</Modified>
+      <Modified>2018-08-14T14:38:21.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\YbWipper\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -467,7 +467,7 @@
       <PackagePath>UnityEngineProxy.dll</PackagePath>
       <Modified>2018-03-26T10:35:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Unprocessed\WinRTLegacy.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Unprocessed\WinRTLegacy.dll">
       <PackagePath>WinRTLegacy.dll</PackagePath>
       <Modified>2018-03-26T10:34:30.000</Modified>
     </AppxPackagedFile>
@@ -499,215 +499,219 @@
       <PackagePath>WinRTBridge.winmd</PackagePath>
       <Modified>2018-03-26T10:35:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Resource.res">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2018-08-09T14:23:03.981</Modified>
+      <Modified>2018-08-14T08:10:04.022</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-03-24T03:09:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.179</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.181</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.184</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square310x310Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square310x310Logo.scale-100.png">
       <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square310x310Logo.scale-125.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square310x310Logo.scale-125.png">
       <PackagePath>Assets\Square310x310Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.167</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square310x310Logo.scale-150.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square310x310Logo.scale-150.png">
       <PackagePath>Assets\Square310x310Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.168</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square310x310Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square310x310Logo.scale-200.png">
       <PackagePath>Assets\Square310x310Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.169</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square310x310Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square310x310Logo.scale-400.png">
       <PackagePath>Assets\Square310x310Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.170</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.186</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.187</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square71x71Logo.scale-100.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square71x71Logo.scale-100.png">
       <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.172</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square71x71Logo.scale-125.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square71x71Logo.scale-125.png">
       <PackagePath>Assets\Square71x71Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square71x71Logo.scale-150.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square71x71Logo.scale-150.png">
       <PackagePath>Assets\Square71x71Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square71x71Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square71x71Logo.scale-200.png">
       <PackagePath>Assets\Square71x71Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.176</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Square71x71Logo.scale-400.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Square71x71Logo.scale-400.png">
       <PackagePath>Assets\Square71x71Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.177</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.188</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\StoreLogo.scale-150.png">
       <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-08-06T01:44:21.196</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-03-22T19:25:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\ARToolKitUWP.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\ARToolKitUWP.dll">
       <PackagePath>ARToolKitUWP.dll</PackagePath>
       <Modified>2017-05-11T03:57:45.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\boot.config">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2018-08-09T14:22:23.765</Modified>
+      <Modified>2018-08-14T08:09:13.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\globalgamemanagers">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2018-08-09T14:22:23.366</Modified>
+      <Modified>2018-08-14T08:09:12.808</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\level0">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2018-08-09T14:22:22.541</Modified>
+      <Modified>2018-08-14T08:09:11.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\Resources\unity default resources">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
       <Modified>2018-03-26T09:33:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\Resources\unity_builtin_extra">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2018-08-09T14:22:23.759</Modified>
+      <Modified>2018-08-14T08:09:13.254</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\globalgamemanagers.assets">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2018-08-09T14:22:23.507</Modified>
+      <Modified>2018-08-14T08:09:12.977</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\sharedassets0.assets">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2018-08-09T14:22:23.532</Modified>
+      <Modified>2018-08-14T08:09:13.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\globalgamemanagers.assets.resS">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\globalgamemanagers.assets.resS">
       <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
-      <Modified>2018-08-09T14:22:23.500</Modified>
+      <Modified>2018-08-14T08:09:12.935</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\level0.resS">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2018-08-09T14:22:22.537</Modified>
+      <Modified>2018-08-14T08:09:11.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\managedAssemblies.txt">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2018-08-14T08:09:13.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2018-08-09T14:23:03.938</Modified>
+      <Modified>2018-08-14T08:09:53.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\nativePlugins.txt">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2018-08-09T14:23:03.940</Modified>
+      <Modified>2018-08-14T08:09:53.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\StreamingAssets\cube.dat">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\StreamingAssets\cube.dat">
       <PackagePath>Data\StreamingAssets\cube.dat</PackagePath>
-      <Modified>2018-08-09T09:17:38.141</Modified>
+      <Modified>2018-08-14T07:48:20.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\StreamingAssets\hololens1280x720.dat">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\StreamingAssets\hololens1280x720.dat">
       <PackagePath>Data\StreamingAssets\hololens1280x720.dat</PackagePath>
       <Modified>2018-03-25T19:23:13.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\StreamingAssets\hololens1344x756.dat">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\StreamingAssets\hololens1344x756.dat">
       <PackagePath>Data\StreamingAssets\hololens1344x756.dat</PackagePath>
       <Modified>2018-03-25T21:05:25.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\StreamingAssets\hololens896x504.dat">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\StreamingAssets\hololens896x504.dat">
       <PackagePath>Data\StreamingAssets\hololens896x504.dat</PackagePath>
       <Modified>2018-08-07T14:05:11.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\StreamingAssets\hololens896x504_matlab.dat">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\StreamingAssets\hololens896x504_matlab.dat">
       <PackagePath>Data\StreamingAssets\hololens896x504_matlab.dat</PackagePath>
       <Modified>2018-08-07T16:10:16.854</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\StreamingAssets\multi-barcode-4x3.dat">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\StreamingAssets\multi-barcode-4x3.dat">
       <PackagePath>Data\StreamingAssets\multi-barcode-4x3.dat</PackagePath>
       <Modified>2017-05-12T05:08:47.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\StreamingAssets\multi-barcode-8x6.dat">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\StreamingAssets\multi-barcode-8x6.dat">
       <PackagePath>Data\StreamingAssets\multi-barcode-8x6.dat</PackagePath>
       <Modified>2017-05-12T17:08:35.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\StreamingAssets\hiro.patt">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\StreamingAssets\hiro.patt">
       <PackagePath>Data\StreamingAssets\hiro.patt</PackagePath>
       <Modified>2017-05-10T19:21:09.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Data\StreamingAssets\kanji.patt">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Data\StreamingAssets\kanji.patt">
       <PackagePath>Data\StreamingAssets\kanji.patt</PackagePath>
       <Modified>2017-05-10T19:21:09.000</Modified>
     </AppxPackagedFile>
@@ -719,226 +723,226 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T14:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-09T14:24:17.919</Modified>
+      <Modified>2018-08-14T08:10:32.792</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.UIElementsModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:19.776</Modified>
+      <Modified>2018-08-14T14:38:29.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.TilemapModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:19.818</Modified>
+      <Modified>2018-08-14T14:38:29.383</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.TextRenderingModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:19.855</Modified>
+      <Modified>2018-08-14T14:38:29.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.TerrainPhysicsModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:19.901</Modified>
+      <Modified>2018-08-14T14:38:29.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.SpriteMaskModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:19.918</Modified>
+      <Modified>2018-08-14T14:38:29.677</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.SpriteShapeModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:19.936</Modified>
+      <Modified>2018-08-14T14:38:29.750</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.StyleSheetsModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:19.964</Modified>
+      <Modified>2018-08-14T14:38:29.777</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.TerrainModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.012</Modified>
+      <Modified>2018-08-14T14:38:29.827</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.UIModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.033</Modified>
+      <Modified>2018-08-14T14:38:29.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.WindModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.049</Modified>
+      <Modified>2018-08-14T14:38:29.907</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.WebModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.WebModule.dll">
       <PackagePath>UnityEngine.WebModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.075</Modified>
+      <Modified>2018-08-14T14:38:29.930</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.VRModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.120</Modified>
+      <Modified>2018-08-14T14:38:29.977</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.VideoModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.142</Modified>
+      <Modified>2018-08-14T14:38:30.004</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.VehiclesModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.160</Modified>
+      <Modified>2018-08-14T14:38:30.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.UnityWebRequestWWWModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.182</Modified>
+      <Modified>2018-08-14T14:38:30.049</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.UNETModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.242</Modified>
+      <Modified>2018-08-14T14:38:30.113</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.UnityAnalyticsModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.324</Modified>
+      <Modified>2018-08-14T14:38:30.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.UnityConnectModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.346</Modified>
+      <Modified>2018-08-14T14:38:30.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.UnityWebRequestAudioModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.362</Modified>
+      <Modified>2018-08-14T14:38:30.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.UnityWebRequestModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.389</Modified>
+      <Modified>2018-08-14T14:38:30.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.UnityWebRequestTextureModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.409</Modified>
+      <Modified>2018-08-14T14:38:30.260</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.SharedInternalsModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.435</Modified>
+      <Modified>2018-08-14T14:38:30.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2018-08-09T14:22:38.147</Modified>
+      <Modified>2018-08-14T08:09:27.629</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.DirectorModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.458</Modified>
+      <Modified>2018-08-14T14:38:30.305</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.CrashReportingModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.482</Modified>
+      <Modified>2018-08-14T14:38:30.322</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.CoreModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.756</Modified>
+      <Modified>2018-08-14T14:38:30.575</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.ClothModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.791</Modified>
+      <Modified>2018-08-14T14:38:30.600</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.AudioModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.819</Modified>
+      <Modified>2018-08-14T14:38:30.648</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.AccessibilityModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.858</Modified>
+      <Modified>2018-08-14T14:38:30.669</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.AIModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.906</Modified>
+      <Modified>2018-08-14T14:38:30.693</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.AnimationModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.950</Modified>
+      <Modified>2018-08-14T14:38:30.768</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.ARModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:20.999</Modified>
+      <Modified>2018-08-14T14:38:30.814</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.AssetBundleModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.048</Modified>
+      <Modified>2018-08-14T14:38:30.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.GameCenterModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.070</Modified>
+      <Modified>2018-08-14T14:38:30.985</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.ParticlesLegacyModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.096</Modified>
+      <Modified>2018-08-14T14:38:31.021</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.ParticleSystemModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.145</Modified>
+      <Modified>2018-08-14T14:38:31.064</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.PerformanceReportingModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.163</Modified>
+      <Modified>2018-08-14T14:38:31.087</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.Physics2DModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.190</Modified>
+      <Modified>2018-08-14T14:38:31.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.PhysicsModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.276</Modified>
+      <Modified>2018-08-14T14:38:31.175</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.ScreenCaptureModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.323</Modified>
+      <Modified>2018-08-14T14:38:31.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.GridModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.346</Modified>
+      <Modified>2018-08-14T14:38:31.225</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.ImageConversionModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.364</Modified>
+      <Modified>2018-08-14T14:38:31.247</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.IMGUIModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.453</Modified>
+      <Modified>2018-08-14T14:38:31.308</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.InputModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.469</Modified>
+      <Modified>2018-08-14T14:38:31.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.JSONSerializeModule.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.488</Modified>
+      <Modified>2018-08-14T14:38:31.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.Timeline.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.554</Modified>
+      <Modified>2018-08-14T14:38:31.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\nunit.framework.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.607</Modified>
+      <Modified>2018-08-14T14:38:31.495</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.UI.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.697</Modified>
+      <Modified>2018-08-14T14:38:31.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.SpatialTracking.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.727</Modified>
+      <Modified>2018-08-14T14:38:31.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.HoloLens.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.754</Modified>
+      <Modified>2018-08-14T14:38:31.667</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.StandardEvents.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.StandardEvents.dll">
       <PackagePath>UnityEngine.StandardEvents.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.868</Modified>
+      <Modified>2018-08-14T14:38:31.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\UnityEngine.Networking.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2018-08-09T16:00:21.938</Modified>
+      <Modified>2018-08-14T14:38:31.803</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\Assembly-CSharp.dll">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2018-08-09T16:00:19.700</Modified>
+      <Modified>2018-08-14T14:38:29.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\bin\HoloLensARToolKit\bin\x86\Debug\Core\HoloLensARToolKit.exe">
+    <AppxPackagedFile Include="F:\HoloLensARToolKit\HoloLensARSample\BIN\HoloLensARToolKit\bin\x86\Debug\Core\HoloLensARToolKit.exe">
       <PackagePath>HoloLensARToolKit.exe</PackagePath>
-      <Modified>2018-08-09T16:00:22.281</Modified>
+      <Modified>2018-08-14T14:38:32.184</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

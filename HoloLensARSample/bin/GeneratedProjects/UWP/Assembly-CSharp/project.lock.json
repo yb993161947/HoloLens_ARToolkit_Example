@@ -15779,12 +15779,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "F:\\HoloLensARToolKit\\HoloLensARSample\\bin\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectUniqueName": "F:\\HoloLensARToolKit\\HoloLensARSample\\BIN\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "F:\\HoloLensARToolKit\\HoloLensARSample\\bin\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
-      "projectJsonPath": "F:\\HoloLensARToolKit\\HoloLensARSample\\bin\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+      "projectPath": "F:\\HoloLensARToolKit\\HoloLensARSample\\BIN\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectJsonPath": "F:\\HoloLensARToolKit\\HoloLensARSample\\BIN\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
       "packagesPath": "C:\\Users\\YbWipper\\.nuget\\packages\\",
-      "outputPath": "F:\\HoloLensARToolKit\\HoloLensARSample\\bin\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\x86\\Debug\\",
+      "outputPath": "F:\\HoloLensARToolKit\\HoloLensARSample\\BIN\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\x86\\Release\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
